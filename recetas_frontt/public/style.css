@@ -1,0 +1,48 @@
+
+.card {
+  position: relative;
+  height: 500px;
+  width: 950px;
+  margin: 100px auto;
+  background-color: #FFF;
+  -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  
+}
+
+.thumbnail {
+  float: left;
+  position: relative;
+  left: 30px;
+  top: -30px;
+  height: 320px;
+  width: 455px;
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+
+   /* Centrar horizontalmente y verticalmente */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.right {
+  margin-left: 520px;
+  margin-right: 20px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.ingredient-list {
+  max-height: 180px; /* Adjust the height as needed */
+  overflow: auto;
+}
+
+.ingredient-list2 {
+  max-height: 160px; /* Adjust the height as needed */
+  overflow: auto;
+}
